@@ -5,69 +5,67 @@ html {
 }
 
 body {
-   background-color: rgb(213,235,239);
-   display: flex;
-   align-items: center;
-   justify-content:center;
-   height: 100vh;
-   width: 100vw;
-}
-<!--#continer {
-    background-color: rgb(213,235,239);
+    background-color: rgb(213, 235, 239);
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 45px;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#container {
+    width: 300px;
 
 }
 
 .bloque-blanco {
     background-color: white;
-    padding: 15px;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 148px;
+    border-radius: 16px;
+    padding-left: 10%;
+    padding-right: 10%
 }
+
 
 .bloque-blanco>* {
-    font-size: 2em;
-    padding: 2em;
+    font-size: 0.9e;
+    padding: 0.1em;
     background-color: white;
-    margin: 17%;
     flex-direction: column;
     text-align: center;
-   
+
 }
+
 #image {
-    width: 100%;
-    height: 100%;
-    display: flex;
- }
+    width: 90%;
 
- <!--#qr-background {
-    background-color: white;
-    padding: 5vw;
-    align-items: center;
- }
-
-
-.attribution { font-size: 11px; text-align: center; }
-
-.attribution a { color: hsl(228, 45%, 44%); }
-
-/*/ (max-width: 390px) {
-
-    .main {
-        background-color:rgb(213,235,239) ;
-    }
-
-    <!-- #image {
-        display: flex;
-
-    }
 }
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 391px) {
+
+    
+
+
+}
+
+
 
 /* @media max-width 1170px */
