@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-html {
-    font-family: 'Outfit', sans-serif;
-}
-
 body {
     background-color: rgb(213, 235, 239);
     display: flex;
